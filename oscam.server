@@ -104,3 +104,67 @@ pincode                       = 0000
 caid                          = 0B00
 detect                        = cd
 group                         = 6
+
+[reader]
+label                  = c1.7elevele.xyz_6satbox31535
+enable                 = 1
+protocol               = cccam
+device                 = c1.7elevele.xyz,18802
+user                   = 6satbox31535
+password               = hassan03
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = c1.7elevele.xyz_6satbox31544
+enable                 = 1
+protocol               = cccam
+device                 = c1.7elevele.xyz,18802
+user                   = 6satbox31544
+password               = jazair02
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = c1.7elevele.xyz_6satbox31544
+enable                 = 1
+protocol               = cccam
+device                 = c1.7elevele.xyz,18802
+user                   = 6satbox31544
+password               = jazair01
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = c1.7elevele.xyz_6satbox31682
+enable                 = 1
+protocol               = cccam
+device                 = c1.7elevele.xyz,18802
+user                   = 6satbox31682
+password               = mohcen02
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = c1.7elevele.xyz_6satbox31779
+enable                 = 1
+protocol               = cccam
+device                 = c1.7elevele.xyz,18802
+user                   = 6satbox31779
+password               = mohcen01
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
