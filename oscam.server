@@ -1,0 +1,123 @@
+#### "*******************************************"
+#### "*          ..:: A U T H O R ::..           *"
+#### "*             << MOHAMED_OS >>             *"
+#### "*           ..:: El Eulma ::..             *"
+#### "*******************************************"
+
+################# Enable Reader #############
+# To enable Reader Using : enable       = 1
+# To Disable Reader Using : enable      = 0
+
+
+
+
+[reader]
+label                         = emulator
+enable                        = 1
+protocol                      = emu
+device                        = emulator
+device                        = https://raw.githubusercontent.com/MOHAMED19OS/SoftCam_Emu/main/Enigma2/SoftCam.Key
+caid                          = 0500,0604,090F,0E00,1010,1801,2600,2602,2610,4AE1
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;090F:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000;4AE1:000011,000014,0000FE
+group                         = 4
+emmcache                      = 2,1,2,1
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000;4AE1:000011,000014,0000FE
+
+
+[reader]
+label                         = SmartCard
+enable                        = 0
+protocol                      = internal
+device                        = /dev/sci0
+pincode                       = 0000
+caid                          = 0B00
+detect                        = cd
+group                         = 5
+
+[reader]
+label                         = oulmes
+enable                        = 0
+protocol                      = cccam
+device                        = buy.cremtv.com,13697
+user                          = cremtv.com
+password                      = cremtv.com
+services                      = !PowerVU,!Tandberg,!Biss,!Afn
+inactivitytimeout             = -1
+reconnecttimeout              = 10
+cacheex_block_fakecws         = 1
+group                         = 4
+cccversion                    = 2.1.1
+cccmaxhops                    = 1 # dont use higher than 3 !!!
+dropbadcws                    = 1
+ccckeepalive                  = 1
+
+
+[reader]
+label                    = 51
+enable                   = 1
+protocol                 = cccam
+device                   = 51.89.40.86,1003
+user                     = rcin0oz6
+password                 = igwi8io3
+disablecrccws            = 1
+inactivitytimeout        = 30
+group                    = 1
+cccversion               = 2.3.0
+ccckeepalive             = 1
+audisabled               = 1
+
+[reader]
+label                    = demo
+enable                   = 1
+protocol                 = cccam
+device                   = demo.mbpot.com,20000
+user                     = ENVIO-RAPIDO3
+password                 = mbpot.com
+disablecrccws            = 1
+inactivitytimeout        = 30
+group                    = 1
+cccversion               = 2.3.0
+ccckeepalive             = 1
+audisabled               = 1
+
+[reader]
+label                    = ru682
+enable                   = 1
+protocol                 = cccam
+device                   = ru682.cserver.tv.info,1003
+user                     = i7ux7i0v
+password                 = 7pb4v3gw
+disablecrccws            = 1
+inactivitytimeout        = 30
+group                    = 1
+cccversion               = 2.3.0
+ccckeepalive             = 1
+audisabled               = 1
+
+[reader]
+label                    = matek
+enable                   = 1
+protocol                 = cccam
+device                   = matek.no-ip.org,12550
+user                     = dicica
+password                 = dicica
+disablecrccws            = 1
+inactivitytimeout        = 30
+group                    = 1
+cccversion               = 2.3.0
+ccckeepalive             = 1
+audisabled               = 1
+
+
+[reader]
+label                         = tntsat
+protocol                      = tntsat
+device                        = tntsat
+caid                          = 0500
+detect                        = cd
+ident                         = 0500:030B00,041950
+group                         = 1
+emmcache                      = 1,1,2,0
+disablecrccws                 = 1
+audisabled                    = 1
