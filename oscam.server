@@ -1,0 +1,543 @@
+#### "*******************************************"
+#### "*          ..:: A U T H O R ::..           *"
+#### "*             << MOHAMED_OS >>             *"
+#### "*                cccam added               *"
+#### "*        ..:: by WORLDOFENIGMA2 ::..      *"
+#### "*******************************************"
+
+################# Enable Reader #############
+# To enable Reader Using : enable       = 1
+# To Disable Reader Using : enable      = 0
+
+
+
+
+[reader]
+label                         = emulator
+enable                        = 1
+protocol                      = emu
+device                        = emulator
+device                        = https://raw.githubusercontent.com/MOHAMED19OS/SoftCam_Emu/main/Enigma2/SoftCam.Key
+caid                          = 0500,0604,090F,0E00,1010,1801,2600,2602,2610,4AE1
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;090F:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000;4AE1:000011,000014,0000FE
+group                         = 4
+emmcache                      = 2,1,2,1
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000;4AE1:000011,000014,0000FE
+
+
+[reader]
+label                         = SmartCard
+enable                        = 0
+protocol                      = internal
+device                        = /dev/sci0
+pincode                       = 0000
+caid                          = 0B00
+detect                        = cd
+group                         = 5
+
+[reader]
+label                         = oulmes
+enable                        = 0
+protocol                      = cccam
+device                        = buy.cremtv.com,13697
+user                          = cremtv.com
+password                      = cremtv.com
+services                      = !PowerVU,!Tandberg,!Biss,!Afn
+inactivitytimeout             = -1
+reconnecttimeout              = 10
+cacheex_block_fakecws         = 1
+group                         = 4
+cccversion                    = 2.1.1
+cccmaxhops                    = 1 # dont use higher than 3 !!!
+dropbadcws                    = 1
+ccckeepalive                  = 1
+
+
+[reader]
+label                    = 51
+enable                   = 1
+protocol                 = cccam
+device                   = 51.89.40.86,1003
+user                     = rcin0oz6
+password                 = igwi8io3
+disablecrccws            = 1
+inactivitytimeout        = 30
+group                    = 1
+cccversion               = 2.3.0
+ccckeepalive             = 1
+audisabled               = 1
+
+[reader]
+label                    = demo
+enable                   = 1
+protocol                 = cccam
+device                   = demo.mbpot.com,20000
+user                     = ENVIO-RAPIDO3
+password                 = mbpot.com
+disablecrccws            = 1
+inactivitytimeout        = 30
+group                    = 1
+cccversion               = 2.3.0
+ccckeepalive             = 1
+audisabled               = 1
+
+[reader]
+label                    = ru682
+enable                   = 1
+protocol                 = cccam
+device                   = ru682.cserver.tv.info,1003
+user                     = i7ux7i0v
+password                 = 7pb4v3gw
+disablecrccws            = 1
+inactivitytimeout        = 30
+group                    = 1
+cccversion               = 2.3.0
+ccckeepalive             = 1
+audisabled               = 1
+
+[reader]
+label                    = matek
+enable                   = 1
+protocol                 = cccam
+device                   = matek.no-ip.org,12550
+user                     = dicica
+password                 = dicica
+disablecrccws            = 1
+inactivitytimeout        = 30
+group                    = 1
+cccversion               = 2.3.0
+ccckeepalive             = 1
+audisabled               = 1
+
+
+[reader]
+label                         = tntsat
+protocol                      = tntsat
+device                        = tntsat
+caid                          = 0500
+detect                        = cd
+ident                         = 0500:030B00,041950
+group                         = 1
+emmcache                      = 1,1,2,0
+disablecrccws                 = 1
+audisabled                    = 1
+
+
+[reader]
+label                  = 176.118.198.101_Server-Reshare
+enable                 = 1
+protocol               = cccam
+device                 = 176.118.198.101,17000
+user                   = Server-Reshare
+password               = cccam-yamal.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 51.89.40.86_rcin0oz6
+enable                 = 1
+protocol               = cccam
+device                 = 51.89.40.86,1003
+user                   = rcin0oz6
+password               = igwi8io3
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = dhoom.org_1day92l
+enable                 = 1
+protocol               = cccam
+device                 = dhoom.org,18001
+user                   = 1day92l
+password               = 2021
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = f1.cccambtc.com_v7pxw
+enable                 = 1
+protocol               = cccam
+device                 = f1.cccambtc.com,15000
+user                   = v7pxw
+password               = www.cccambtc.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = free1.cccameagle.com_gw1i3
+enable                 = 1
+protocol               = cccam
+device                 = free1.cccameagle.com,13065
+user                   = gw1i3
+password               = cccameagle
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 51.91.6.74_mhisw9nb
+enable                 = 1
+protocol               = cccam
+device                 = 51.91.6.74,1003
+user                   = mhisw9nb
+password               = xmka1hfa
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_IPTV25
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = IPTV25
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_IPTV18
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = IPTV18
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_ENVIO-RAPIDO8
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = ENVIO-RAPIDO8
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_IPTV31
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = IPTV31
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 1.prsrv.biz_megyesi1
+enable                 = 1
+protocol               = cccam
+device                 = 1.prsrv.biz,4555
+user                   = megyesi1
+password               = 4789m2
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 51.89.40.86_mhisw9nb
+enable                 = 1
+protocol               = cccam
+device                 = 51.89.40.86,1003
+user                   = mhisw9nb
+password               = xmka1hfa
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = jeje.resident.ovh_fjmallen
+enable                 = 1
+protocol               = cccam
+device                 = jeje.resident.ovh,33333
+user                   = fjmallen
+password               = fjmallenpass
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_IPTV38
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = IPTV38
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = jeegrobot2.mypets.ws_Belu_CH
+enable                 = 1
+protocol               = cccam
+device                 = jeegrobot2.mypets.ws,19730
+user                   = Belu_CH
+password               = 29_01_2010
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 5.2.76.177_fjmallen
+enable                 = 1
+protocol               = cccam
+device                 = 5.2.76.177,33333
+user                   = fjmallen
+password               = fjmallenpass
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = dd996.cserver.tv_mhisw9nb
+enable                 = 1
+protocol               = cccam
+device                 = dd996.cserver.tv,1003
+user                   = mhisw9nb
+password               = xmka1hfa
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 51.89.40.86_i7ux7i0v
+enable                 = 1
+protocol               = cccam
+device                 = 51.89.40.86,1003
+user                   = i7ux7i0v
+password               = 7pb4v3gw
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_IPTV9
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = IPTV9
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = uk629.cserver.tv_i7ux7i0v
+enable                 = 1
+protocol               = cccam
+device                 = uk629.cserver.tv,1003
+user                   = i7ux7i0v
+password               = 7pb4v3gw
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = de139.cserver.tv_mhisw9nb
+enable                 = 1
+protocol               = cccam
+device                 = de139.cserver.tv,1003
+user                   = mhisw9nb
+password               = xmka1hfa
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 78.129.240.183_i7ux7i0v
+enable                 = 1
+protocol               = cccam
+device                 = 78.129.240.183,1003
+user                   = i7ux7i0v
+password               = 7pb4v3gw
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = cardsharing-sat.freeddns.org_Cardsharing-sat4K
+enable                 = 1
+protocol               = cccam
+device                 = cardsharing-sat.freeddns.org,14000
+user                   = Cardsharing-sat4K
+password               = cardsharing-sat.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = dd996.cserver.tv_i7ux7i0v
+enable                 = 1
+protocol               = cccam
+device                 = dd996.cserver.tv,1003
+user                   = i7ux7i0v
+password               = 7pb4v3gw
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_MEJOR-PRECIO9
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = MEJOR-PRECIO9
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_MEJOR-PRECIO10
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = MEJOR-PRECIO10
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_IPTV57
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = IPTV57
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_IPTV62
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = IPTV62
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_SOPORTE-24H5
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = SOPORTE-24H5
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_MEJOR-PRECIO5
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = MEJOR-PRECIO5
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_MEJOR-PRECIO8
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = MEJOR-PRECIO8
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 51.91.6.74_009933
+enable                 = 1
+protocol               = cccam
+device                 = 51.91.6.74,1003
+user                   = 009933
+password               = 009933
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+
