@@ -539,5 +539,200 @@ group                  = 1
 ccckeepalive           = 1
 disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
 
+[reader]
+label                  = demo.mbpot.com_MEJOR-PRECIO10
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = MEJOR-PRECIO10
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_MEJOR-PRECIO17
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = MEJOR-PRECIO17
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = demo.mbpot.com_ENVIO-RAPIDO7
+enable                 = 1
+protocol               = cccam
+device                 = demo.mbpot.com,20000
+user                   = ENVIO-RAPIDO7
+password               = mbpot.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 51.91.6.74_009933
+enable                 = 1
+protocol               = cccam
+device                 = 51.91.6.74,1003
+user                   = 009933
+password               = 009933
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 194.163.151.107_salah@@
+enable                 = 1
+protocol               = cccam
+device                 = 194.163.151.107,21000
+user                   = salah@@
+password               = salah@@
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 176.118.198.101_Server-Reshare
+enable                 = 1
+protocol               = cccam
+device                 = 176.118.198.101,17000
+user                   = Server-Reshare
+password               = cccam-yamal.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = ru943.cserver.tv_mhisw9nb
+enable                 = 1
+protocol               = cccam
+device                 = ru943.cserver.tv,1003
+user                   = mhisw9nb
+password               = xmka1hfa
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = ru101.cserver.tv_mhisw9nb
+enable                 = 1
+protocol               = cccam
+device                 = ru101.cserver.tv,1003
+user                   = mhisw9nb
+password               = xmka1hfa
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = dd996.cserver.tv_i7ux7i0v
+enable                 = 1
+protocol               = cccam
+device                 = dd996.cserver.tv,1003
+user                   = i7ux7i0v
+password               = 7pb4v3gw
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = ru256.cserver.tv_mhisw9nb
+enable                 = 1
+protocol               = cccam
+device                 = ru256.cserver.tv,1003
+user                   = mhisw9nb
+password               = xmka1hfa
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 51.89.40.86_mhisw9nb
+enable                 = 1
+protocol               = cccam
+device                 = 51.89.40.86,1003
+user                   = mhisw9nb
+password               = xmka1hfa
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 51.89.40.86_i7ux7i0v
+enable                 = 1
+protocol               = cccam
+device                 = 51.89.40.86,1003
+user                   = i7ux7i0v
+password               = 7pb4v3gw
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = uk629.cserver.tv_mhisw9nb
+enable                 = 1
+protocol               = cccam
+device                 = uk629.cserver.tv,1003
+user                   = mhisw9nb
+password               = xmka1hfa
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = 5.189.165.116_beinsport2
+enable                 = 1
+protocol               = cccam
+device                 = 5.189.165.116,24800
+user                   = beinsport2
+password               = france
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
+[reader]
+label                  = cardsharing-sat.freeddns.org_Cardsharing-sat4K
+enable                 = 1
+protocol               = cccam
+device                 = cardsharing-sat.freeddns.org,14000
+user                   = Cardsharing-sat4K
+password               = cardsharing-sat.com
+cccversion             = 2.0.11
+group                  = 1
+ccckeepalive           = 1
+disablecrccws_only_for = 1708:000000;1709:000000;09C4:000000;0500:050F00;0500:030B00,050F00;098C:000000;1884:000000;1841:000000
+
+
 
 
