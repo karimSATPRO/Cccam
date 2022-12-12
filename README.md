@@ -1,6 +1,8 @@
-scripts oscam.server   cccamsline
+scripts oscam.server   cccamsline:
+
 wget https://raw.githubusercontent.com/karimSATPRO/Cccam/main/oscam.sh -O - | /bin/sh
-scripts CCcam.cgf   C:host port username password
+
+scripts CCcam.cgf   C:host port username password:
 
 wget https://raw.githubusercontent.com/karimSATPRO/Cccam/main/oscam.sh -O - | /bin/sh
 
