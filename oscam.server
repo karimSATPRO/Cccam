@@ -2,15 +2,12 @@
 #### "*          ..:: A U T H O R ::..           *"
 #### "*             << MOHAMED_OS >>             *"
 #### "*                cccam added               *"
-#### "*        ..:: by WORLDOFENIGMA2 ::..      *"
+#### "*        ..:: by KARIMSATPRO ::..      *"
 #### "*******************************************"
 
 ################# Enable Reader #############
 # To enable Reader Using : enable       = 1
 # To Disable Reader Using : enable      = 0
-
-
-
 
 [reader]
 label                         = emulator
