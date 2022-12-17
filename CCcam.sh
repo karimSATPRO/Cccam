@@ -1,4 +1,4 @@
-echo "############### Cccams gratuit #################"
+echo "############### Cccams gratuits #################"
 echo "############ BY KARIM ABU RIDA  #################"
 #!/bin/sh
 #
