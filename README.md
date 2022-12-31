@@ -1,9 +1,11 @@
 
+###cccam gratuit
+
 
 scripts CCcam.cgf  ( C:host port username password)
-
+```
 wget https://raw.githubusercontent.com/karimSATPRO/Cccam/main/CCcam.sh -O - | /bin/sh
-
+```
     path:  etc/tuxbox/config/CCcam.cfg
 
 Delete the # sign in front of the line you want to run
